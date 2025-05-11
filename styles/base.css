@@ -1,0 +1,113 @@
+:root {
+    --pretty-font: "Shadows Into Light", cursive;
+    --comon-font: "Winky Sans", sans-serif;
+}
+
+/* .shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+} */
+
+
+/* .winky-sans-<uniquifier> {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */
+* {
+    font-family: var(--comon-font);
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 13%;
+    margin: 0%;
+    padding-bottom: 0.4rem;
+
+}
+
+header h1 {
+    background-color: rgb(68, 67, 66);
+    margin: 0%;
+    padding: 2rem;
+    color: aliceblue;
+    font-family: var(--comon-font);
+    text-align: center;
+}
+
+header nav {
+    background-color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+header a {
+    text-decoration: none;
+    color: aliceblue;
+    /* border: 0.1px solid rgb(238, 224, 224); */
+}
+
+header a:hover {
+    color: rgb(182, 70, 5);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 0.65fr;
+    height: 50%;
+}
+
+.card {
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: 0 0.5rem 0 0.5;
+    border: 1px solid rgb(185, 72, 6);
+}
+
+.first {
+    background-color: bisque;
+    margin-right: 1rem;
+
+}
+
+.inner {
+    display: flex;
+}
+
+.inner p {
+    padding: 1rem;
+}
+
+.inner img {
+    width: 15rem;
+    border: 1px solid rgb(15, 13, 13);
+    border-radius: 1rem;
+}
+
+.second {
+    background-color: beige;
+}
+
+footer {
+    background-color: rgb(70, 66, 66);
+    color: aliceblue;
+    height: 20%;
+}
+
+footer p {
+    margin: 0%;
+    text-align: center;
+}
