@@ -33,7 +33,7 @@ header {
     width: 100%;
     height: 13%;
     margin: 0%;
-    padding-bottom: 0.4rem;
+    padding-bottom: 4rem;
 
 }
 
@@ -67,7 +67,7 @@ header a:hover {
 main {
     display: grid;
     grid-template-columns: 1fr 0.65fr;
-    height: 50%;
+    margin: 4rem;
 }
 
 .card {
