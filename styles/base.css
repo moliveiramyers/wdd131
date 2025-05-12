@@ -73,7 +73,7 @@ main {
 .card {
     border-radius: 2rem;
     padding: 1rem;
-    margin: 0 0.5rem 0 0.5;
+    margin: 0% 0.5rem 0% 0.5rem;
     border: 1px solid rgb(185, 72, 6);
 }
 
@@ -92,9 +92,18 @@ main {
 }
 
 .inner img {
-    width: 15rem;
     border: 1px solid rgb(15, 13, 13);
     border-radius: 1rem;
+}
+
+.personal img {
+    width: 15rem;
+}
+
+.country img {
+    width: 10rem;
+    height: 5rem;
+    margin-top: 5rem;
 }
 
 .second {
