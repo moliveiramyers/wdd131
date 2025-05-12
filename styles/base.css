@@ -40,16 +40,16 @@ header {
 }
 
 header h1 {
-    background-color: rgb(68, 26, 6);
+    background-color: rgb(185, 72, 6);
     margin: 0%;
     padding: 2rem;
-    color: bisque;
+    color: white;
     font-family: var(--comon-font);
     text-align: center;
 }
 
 header nav {
-    background-color: rgb(185, 72, 6);
+    background-color: rgb(68, 26, 6);
     padding: 1rem;
     display: flex;
     justify-content: space-around;
@@ -63,7 +63,7 @@ header a {
 }
 
 header a:hover {
-    color: black;
+    color: orange;
 }
 
 main {
@@ -87,7 +87,7 @@ main {
     padding-left: 1rem;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-    color: bisque;
+    color: white;
 }
 
 .first {
