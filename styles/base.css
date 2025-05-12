@@ -68,6 +68,7 @@ main {
     display: grid;
     grid-template-columns: 1fr 0.65fr;
     margin: 4rem;
+    max-width: 90%;
 }
 
 .card {
