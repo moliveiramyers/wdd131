@@ -1,0 +1,122 @@
+body {
+    font-family: "Barrio", system-ui;
+    margin: 0%;
+}
+
+
+main {
+    max-width: 640px;
+    margin: auto;
+}
+
+footer,
+header {
+    background-color: rgb(54, 9, 95);
+    color: white;
+    padding: 1.5rem;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+    color: #fff;
+}
+
+#menu.open::before {
+    content: "X";
+    color: #fff;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header nav {
+    max-width: 700px;
+    margin: 0;
+
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-family: "Winky Sans", sans-serif;
+    display: flex;
+    text-align: center;
+    color: #fff;
+    padding: 1rem;
+    display: none;
+}
+
+.navigation a:hover {
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+}
+
+header h1 {
+    margin: 0%;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+main h1 {
+    text-align: center;
+}
+
+.temples {
+    width: 100%;
+    height: auto;
+}
+
+figure {
+    flex: 1 1 300px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+figcaption {
+    font-family: "Winky Sans", sans-serif;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+footer p {
+    margin: 0%;
+    font-family: "Winky Sans", sans-serif;
+    text-align: center;
+}
+
+/* button is clicked */
+.open a {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

@@ -1,0 +1,46 @@
+@media (min-width: 640px) {
+    .navigation {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .navigation li {
+        flex: 1 1 100%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    main h1 {
+        text-align: center;
+        width: 100%;
+    }
+
+    .temples {
+        width: 100%;
+        height: auto;
+    }
+
+    figure {
+        flex: 1 1 300px;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
