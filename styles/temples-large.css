@@ -28,7 +28,7 @@
         flex: 1 1 100%;
     }
 
-    main {
+    main div {
 
         display: flex;
         flex-wrap: wrap;

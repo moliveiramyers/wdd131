@@ -3,9 +3,9 @@ body {
     margin: 0%;
 }
 
-main {
+main div {
     max-width: 640px;
-    margin: auto;
+    margin: 0;
 }
 
 footer,
@@ -76,7 +76,7 @@ header h1 {
     margin: 0%;
 }
 
-main {
+main div {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
