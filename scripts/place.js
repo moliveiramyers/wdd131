@@ -24,6 +24,6 @@ function calculateWindChill(temperature, windSpeed, scale) {
     else {
         result = "N/A";
     }
-    windChill.textContent = result;
+    windChill.textContent = `${result.toFixed(1)}°${scaleValue}`;
 }
 window.addEventListener("DOMContentLoaded", () => calculateWindChill(temperature, windSpeed, scale));
