@@ -1,0 +1,86 @@
+:root {
+    --main-letter: "Raleway", sans-serif;
+    --letter: "Winky Sans", sans-serif;
+    --title-size: 2rem;
+    --color-1: #3B3B1A;
+    --color-2: #8A784E;
+    --color-3: #E7EFC7;
+    --color-4: #AEC8A4;
+    --padding-stendard: 1rem;
+}
+
+Html,
+body,
+header,
+main,
+footer {
+    max-width: 100%;
+    height: auto;
+    margin: 0%;
+}
+
+body {
+    background-color: var(--color-3);
+    font-family: var(--letter);
+}
+
+header {
+    background-color: #3B3B1A;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--letter);
+    font-size: 2rem;
+    color: var(--color-3);
+}
+
+.hero {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.data,
+.weather {
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+
+.info {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info th {
+    text-align: end;
+}
+
+.info td {
+    text-align: start;
+}
+
+footer {
+    padding: var(--padding-stendard);
+    background-color: var(--color-1);
+    color: var(--color-4);
+    font-size: 1.5rem;
+    text-align: center;
+}
