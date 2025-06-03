@@ -75,7 +75,7 @@ header {
 }
 
 .data h2::after {
-    content: "📅";
+    content: "📈";
     display: inline-block;
     width: 40px;
     height: 40px;
