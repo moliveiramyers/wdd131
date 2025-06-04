@@ -99,6 +99,16 @@ main h2 {
     flex-wrap: wrap;
 }
 
+.temple-card {
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 1 300px;
+    border: 1.5px solid rgba(44, 42, 42, 0.2);
+    text-align: center;
+    background-color: rgba(226, 226, 226, 0.5);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
 .temple-card img {
     width: 100%;
     background-color: rgba(226, 226, 226, 0.5);
@@ -114,6 +124,7 @@ main h2 {
 .temple-card strong {
     color: #560b74;
 }
+
 
 /* .temples-container {
     width: 100%;
