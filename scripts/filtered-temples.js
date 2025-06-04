@@ -135,7 +135,7 @@ const oldTemples = document.querySelector("#oldTemples");
 oldTemples.addEventListener("click", () => {
     let oldTemplesFilter = temples.filter(temple => {
         const year = parseInt(temple.dedicated.substring(0, 4));
-        return year < 2000;
+        return year < 1900;
     });
     createTempleCards(oldTemplesFilter)
     heading.textContent = `Older Temples`;
