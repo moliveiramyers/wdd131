@@ -9,16 +9,16 @@
 }
 
 body {
-    font-family: var(--body-font);
-    background-color: var(--background-color);
+    font-family: var(--normal-text);
+    background-color: var(--sand-yellow);
     margin: 2rem;
-    color: #333;
+    color: var(--darker-blue);
 }
 
 h1,
 h2 {
-    font-family: var(--heading-font);
-    color: var(--accent-color);
+    font-family: var(--stylish-font);
+    color: var(--darker-blue);
 }
 
 section {
