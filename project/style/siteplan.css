@@ -1,0 +1,39 @@
+:root {
+    --middle-blue: #00b4d8;
+    --darker-blue: #03045e;
+    --sand-yellow: #f4f1bb;
+    --yellow: #f8e16c;
+    --normal-text: "Delius", cursive;
+    --stylish-font: "Fascinate Inline", system-ui;
+    --special-font: "Coming Soon", cursive;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--background-color);
+    margin: 2rem;
+    color: #333;
+}
+
+h1,
+h2 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.wireframe {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wireframe h2 {
+    width: 100%;
+}
+
+.wireframe img {
+    padding: 1rem 0.5rem 0 0;
+}
