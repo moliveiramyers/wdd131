@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Product feedback">
+    <meta name="author" content="Marjorie Myers">
+    <title>Product Review</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href="styles/form.css" rel="stylesheet">
+    <script src="script/form.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+
+    <main>
+        <form method="get" action="review.html" class="pr">
+            <fieldset>
+                <label>Product Name
+                    <select id="product" name="product" required>
+                        <option value="">Select a Product...</option>
+                        <!-- <option value="lipstick">Lipstick</option>
+                        <option value="gloss">Gloss</option>
+                        <option value="nail">Nail Polish</option>
+                        <option value="blush">Blush</option>
+                        <option value="highlight">Highlight</option>
+                        <option value="lotion">Lotion</option>
+                        <option value="perfume">Perfume</option> -->
+                    </select>
+                </label>
+                <div class="rating">
+                    <legend>Overall Rating</legend>
+                    <label>☆<input type="radio" id="star1" name="rating" value="oneStar" required></label>
+                    <label>☆☆<input type="radio" id="star2" name="rating" value="twoStars" required></label>
+                    <label>☆☆☆<input type="radio" id="star3" name="rating" value="threeStars" required></label>
+                    <label>☆☆☆☆<input type="radio" id="star4" name="rating" value="fourStars" required></label>
+                    <label>☆☆☆☆☆<input type="radio" id="star5" name="rating" value="fiveStars" required></label>
+                </div>
+
+                <label class="space">Date of Purchase <input type="date" id="date" name="purchase" required></label>
+
+                <div class="space">Which features did you find useful in the product?</div>
+                <p class="smalltext">Check all that apply</p>
+                <label class="check"><input type="checkbox" id="durability" name="durability"
+                        value="yes">Durability</label>
+                <label class="check"><input type="checkbox" id="performance" name="performance"
+                        value="yes">Perfomance</label>
+                <label class="check"><input type="checkbox" id="design" name="design" value="yes">Design</label>
+                <label class="check"><input type="checkbox" id="facility" name="facility" value="yes">Easy to
+                    Use</label>
+                <div class="optional">
+                    <label>Writen Review <span class="smalltext">(Optional)</span><textarea id="feedback"
+                            name="feedback" rows="8" cols="60"
+                            placeholder="Enter here your feedback..."></textarea></label>
+
+                    <label>Your Name <span class="smalltext">(Optional)</span><input type="text" id="name"
+                            name="name"></label>
+                </div>
+            </fieldset>
+
+
+            <input type="submit" value=" Send Review ">
+        </form>
+
+    </main>
+
+    <footer>
+        <p>©️💠 <span id="currentyear"></span> 💠 Marjorie Myers 💠 Portugal</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+
+</html>
