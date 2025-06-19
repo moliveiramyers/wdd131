@@ -1,0 +1,146 @@
+:root {
+--normal-font: "Delius", cursive;
+--rounded-font: "Fascinate Inline", system-ui;
+--history: "Coming Soon", cursive;
+--light-blue: #ade8f4;
+--middle-blue: #00b4d8;
+--darker-blue: #03045e;
+--sand-yellow: #f4f1bb;
+--light-yellow: #ffee93;
+--yellow: #f8e16c;
+--green-water: #88d8b0;
+--calm-pink: #ff57bb;
+}
+
+body {
+font-family: var(--normal-font);
+margin: 0%;
+max-width: 100%;
+}
+
+
+footer,
+header {
+background-color: var(--middle-blue);
+color: var(--darker-blue);
+padding: 0;
+}
+
+header {
+align-items: center;
+width: 100%;
+
+}
+
+.headercontainer {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+nav {
+width: 400px;
+}
+
+.navigation {
+max-width: 400px;
+margin: 0;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+list-style: none;
+color: #fff;
+}
+
+.navigation li {
+flex: 1 1 100%;
+}
+
+.navigation a {
+text-decoration: none;
+color: var(--darker-blue);
+font-family: var(--rounded-font);
+display: block;
+flex: 1 1 100%;
+text-align: center;
+padding: 1rem;
+}
+
+.navigation a:hover {
+/* background-color: #bbb; */
+color: #3d3d53;
+font-weight: 700;
+}
+
+.logo {
+width: 5rem;
+margin: 0%;
+justify-content: left;
+}
+
+.logo img {
+width: 3rem;
+margin: 0%;
+}
+
+#menu {
+display: none;
+}
+
+header h1 {
+margin: 0%;
+width: 6rem;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mar Myers Clothing</title>
+    <meta name="description" content="Clothing Online Shop">
+    <meta name="author" content="Marjorie Myers">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barrio&family=Boldonse&family=Fascinate+Inline&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ribeye&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/mar-myers-larger.css">
+    <link rel="stylesheet" href="style/mar-myers-smaller.css">
+    <script src="script/mar-myers.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="headercontainer">
+            <figure class="logo">
+                <img src="images/mar-myers-logo.jpg" alt="logo">
+            </figure>
+            <h1>Mar Myers</h1>
+            <button type="button" id="menu"></button>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="siteplan.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contacus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    </main>
+    <footer>
+        <p>©️💠 <span id="currentyear"></span> 💠 Marjorie Myers 💠 Portugal</p>
+        <p id="lastModified"></p>
+        <ul socialinks>
+            <li><a href="https://www.facebook.com/"><img src="facebook.svg" alt="facebook"></a></li>
+            <li><a href="https://www.instagram.com/"><img src="instagram.svg" alt="instagram"></a></li>
+            <li><a href="https://x.com/"><img src="x.svg" alt="x"></a></li>
+
+        </ul>
+    </footer>
+</body>
+
+</html>

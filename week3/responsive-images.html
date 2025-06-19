@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images Activity</title>
+    <meta name="descriptions" content="Responsive Images Activity">
+    <meta name="author" content="Marjorie Myers">
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+    <header>
+        Responsive activity
+    </header>
+    <main class="hero">
+        <div>
+            <picture>
+                <source srcset="images/birmingham_alabama_temple-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/birmingham_alabama_temple-medium.webp" medium="(min-width:500)">
+                <img src="images/birmingham_alabama_temple-small.webp" alt="Alabama Temple" width="500" height="250">
+            </picture>
+        </div>
+    </main>
+</body>
+
+</html>
