@@ -12,37 +12,111 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Barrio&family=Boldonse&family=Fascinate+Inline&family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ribeye&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="style/mar-myers-larger.css">
-    <link rel="stylesheet" href="style/mar-myers-smaller.css">
-    <script src="script/mar-myers.js" defer></script>
+    <link rel="stylesheet" href="styles/mar-myers-larger.css">
+    <link rel="stylesheet" href="styles/mar-myers-smaller.css">
+    <script src="scripts/mar-myers.js" defer></script>
 </head>
 
 <body>
     <header>
-        <figure class="logo">
-            <img src="images/mar-myers-logo.jpg" alt="logo">
-        </figure>
-        <h1>Mar Myers</h1>
-        <button type="button" id="menu"></button>
-        <nav>
-            <ul class="navigation">
-                <li><a href="siteplan.html">Home</a></li>
-                <li><a href="products.html">Products</a></li>
-                <li><a href="contacus.html">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div class="headercontainer">
+            <figure class="logo">
+                <img src="images/mar-myers-logo.jpg" alt="logo" width="70px" height="70px">
+            </figure>
+            <h1>Mar Myers</h1>
+            <button type="button" id="menu"></button>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    <main>
+
+    <main class="contact-main">
+        <h2> Contact Information</h2>
+        <div class="contacts">
+            <section class="social-icons">
+                <li><a href="https://www.facebook.com/"><img src="images/cute-facebook.svg" alt="facebook"
+                            width="30px"></a> Mar Myers Swimsuits
+                </li>
+                <li><a href="https://www.instagram.com/"><img src="images/cute-instagram.svg" alt="instagram"
+                            width="35px"></a> @MarMyersSwimSuits
+                </li>
+                <li><a href="https://tiktok.com"><img src="images/cute-tiktok.svg" alt="x" width="30px"></a>
+                    @MarMyersSwimSuits</li>
+            </section>
+
+            <section class="contact-info">
+                <li><img src="images/email.svg" alt="email" width="30px"> contact@marmyers.com
+                </li>
+                <li><img src="images/phone.svg" alt="phone" width="30px"> (+351) 945 658 623 - From 08 AM to 08 PM -
+                    Monday
+                    to Friday</a>
+                </li>
+            </section>
+        </div>
+
+        <div class="forms">
+            <form class="signup">
+                <fieldset>
+                    <label>First Name* <input type="text" id="fname" name="fname" required></label>
+                    <label>Last Name* <input type="text" id="lname" name="lname" required></label>
+                    <label>Email* <input type="email" name="email" placeholder="mar.myers@email.com" required></label>
+
+                    <label class="check"><input type="checkbox" name="subscription" value="yes" required>By checking
+                        this box you
+                        <span>Agree to our Terms and Conditions.</span></label>
+
+                    <label class="check"><input type="checkbox" name="subscription" value="yes">By checking this box you
+                        agree to
+                        receive weekly promotions and updates emails.</label>
+                </fieldset>
+                <input id="subscription" type="submit" value=" Sign Up ">
+
+            </form>
+            <form class="contact">
+                <fieldset>
+                    <legend>Your Feedback</legend>
+                    <select id="product" name="product" required>
+                        <option value="">Select a topic...</option>
+                        <option id="bikini" value="bikini">Bikini</option>
+                        <option id="swimsuit" value="swimsuit">Swimsuit</option>
+                        <option id="questions" value="questions">Questions</option>
+                        <option id="complement" value="complement">Complement</option>
+                        <option id="complain" value="complain">Complain</option>
+                        <option id="quality" value="quality">Quality</option>
+                    </select>
+
+                    <legend>Write Your Feedback</legend>
+                    <textarea id="feedback" name="feedback" rows="8" cols="60"
+                        placeholder="Enter here your feedback..."></textarea>
+                </fieldset>
+                <input id="feedback-button" type="submit" value=" Send Feedback ">
+            </form>
+        </div>
 
     </main>
     <footer>
-        <p>©️💠 <span id="currentyear"></span> 💠 Marjorie Myers 💠 Portugal</p>
-        <p id="lastModified"></p>
-        <ul socialinks>
-            <li><a href="https://www.facebook.com/"><img src="facebook.svg" alt="facebook"></a></li>
-            <li><a href="https://www.instagram.com/"><img src="instagram.svg" alt="instagram"></a></li>
-            <li><a href="https://x.com/"><img src="x.svg" alt="x"></a></li>
-
+        <div class="copyrights">
+            <p>©️💠 <span id="currentyear"></span> 💠 Marjorie Myers 💠 Portugal</p>
+            <p id="lastModified"></p>
+        </div>
+        <ul class="socialinks">
+            <div>
+                <li><a href="https://www.facebook.com/"><img src="images/facebook.svg" alt="facebook" width="30px"></a>
+                </li>
+                <li><a href="https://www.instagram.com/"><img src="images/instagram.svg" alt="instagram"
+                            width="30px"></a>
+                </li>
+                <li><a href="https://tiktok.com/"><img src="images/tiktok.svg" alt="x" width="30px"></a></li>
+            </div>
+            <div class="icons">
+                <a class="icons8" target="_blank" href="https://icons8.com/icon/32292/instagram">icon by</a><a
+                    class="icons8" target="_blank" href="https://icons8.com">Icons8</a>
+            </div>
         </ul>
     </footer>
 </body>
