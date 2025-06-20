@@ -134,4 +134,8 @@
 
     }
 
+    /* contact page */
+    .forms {
+        grid-template-columns: 1fr;
+    }
 }

@@ -279,6 +279,10 @@ form.filter select {
     width: 100%;
 }
 
+.contacts ul {
+    padding-left: 0;
+}
+
 .contacts li {
     list-style-type: none;
     display: flex;
@@ -296,7 +300,7 @@ form.filter select {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 1rem;
     padding: 1rem;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: auto;
     background-color: var(--sand-yellow);
     color: var(--darker-blue);
@@ -311,14 +315,20 @@ form.filter select {
     border: 0;
 }
 
-.signup {
+.signup,
+.contact {
+    display: block;
+    max-width: 400px;
+}
+
+/* .signup {
     grid-column: 1/2;
     display: block;
 }
 
 .contact {
     grid-column: 2/3;
-}
+} */
 
 .forms label,
 .forms legend {
