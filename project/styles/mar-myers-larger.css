@@ -377,3 +377,8 @@ form.filter select {
     background-color: var(--darker-blue);
     color: #999;
 }
+
+
+.thanks-msg {
+    text-align: center;
+}

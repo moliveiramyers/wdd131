@@ -44,7 +44,11 @@ function thanksPage(e) {
     forms.appendChild(msg);
 }
 
-signupForm.addEventListener("submit", thanksPage);
+
+if (forms && signupForm) {
+    signupForm.addEventListener("submit", thanksPage);
+}
+
 
 
 
@@ -229,7 +233,7 @@ function createProduct(productList) {
 };
 createProduct(products)
 
-Filters
+
 
 document.querySelector(".filter").addEventListener("submit", function (e) {
     e.preventDefault();
