@@ -106,7 +106,7 @@ const products = [
         imageUrl: "images/maio3.webp"
     },
     {
-        productType: "",
+        productType: "Swimsuit",
         size: "normal",
         price: "€ 144,99",
         sales: false,
