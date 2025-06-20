@@ -105,7 +105,7 @@ footer {
     padding: 1rem 1rem;
 }
 
-.socialinks div {
+.socialinks ul {
     display: flex;
     text-decoration: none;
     list-style: none;
